@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    scroll-behavior: smooth;
+}
+
+.center-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fonts-class{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.slide1{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    
+}
+
+.slide2{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgb(77, 165, 42);
+}
+
+.slide3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 165, 165);
+}
+
+.slide4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 42, 165);
+}
+
+/* ----------------- SLIDE 1 SECTION -------------------- */
+
+
+
+
+
+/* ----------------- SLIDE 2 SECTION -------------------- */
+
+
+
+
+
+
+/* ----------------- SLIDE 3 SECTION -------------------- */
+
+
+
+
+
+
+
+/* ----------------- SLIDE 4 SECTION -------------------- */
+
+
+
+/* -------------- JS CLASS -------------------- */
+
+.hidden{
+    opacity: 0;
+    fill: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show{
+    opacity: 1;
+    fill: blur(0);
+    transform: translateX(0);
+}
